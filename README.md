@@ -1,11 +1,14 @@
-## 1. Build image
+# Installation
 
 ```
-docker build -t demo_docker .
+git clone <this_project>
 ```
 
-## 2. Run image
+# Usage
 
 ```
-docker run -d --rm -p 5000:5000 demo_docker
+docker-compose up -d 
 ```
+
+Go on `localhost:80`, you must see hello world.
+
